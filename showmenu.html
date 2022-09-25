@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <script src="https://use.fontawesome.com/releases/v5.2.0/js/all.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css">
+  <title>도시락 메뉴 조회</title>
+</head>
+
+<body>
+  <!-- Header -->
+  <header>
+    <div class="logo">
+      <img src="knu.jpg" alt="로고">
+      <span class="title">학식 도시락</span>
+    </div>
+    <div class="icons">
+      <i class="fas fa-sign-in-alt"></i>
+      <i class="fas fa-ellipsis-v"></i>
+    </div>
+  </header>
+  <!-- Table -->
+  <table class="type">
+    <thead>
+      <th>이미지</th>
+      <th>이름</th>
+      <th>가격</th>
+      <th>신청 개수</th>
+    </thead>
+    <tbody>
+      <tr>
+        <td width="200"><img src="lunchbox.jpg" alt="사진 1" width="200" height="150"></td>
+        <td width="150">불고기 도시락</td>
+        <td width="50">4500</td>
+        <td width="50"><input type="number" min="0" max="10" step="1" value="0"></input></td>
+      </tr>
+      <tr>
+        <td width="200"><img src="lunchbox.jpg" alt="사진 2" width="200" height="150"></td>
+        <td width="150">돈까스 도시락</td>
+        <td width="50">5000</td>
+        <td width="50"><input type="number" min="0" max="10" step="1" value="0"></input></td>
+      </tr>
+      <tr>
+        <td width="200"><img src="lunchbox.jpg" alt="사진 3" width="200" height="150"></td>
+        <td width="150">치즈돈까스 도시락</td>
+        <td width="50">5500</td>
+        <td width="50"><input type="number" min="0" max="10" step="1" value="0"></input></td>
+      </tr>
+      <tr>
+        <td width="200"><img src="lunchbox.jpg" alt="사진 4" width="200" height="150"></td>
+        <td width="150">옛날 도시락</td>
+        <td width="50">5000</td>
+        <td width="50"><input type="number" min="0" max="10" step="1" value="0"></input></td>
+      </tr>
+    </tbody>
+  </table>
+
+  <div style='width:80px;float: right;'>
+    <input type='button' class='btn' name='btn' value='도시락 신청'>
+  </div>
+</body>
+
+</html>
